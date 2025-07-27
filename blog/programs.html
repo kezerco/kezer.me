@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programs that I use</title>
+    <style>
+        @font-face {
+            font-family: 'CPMono Light';
+            src: local('CPMono Light'), 
+                 url('https://cdn.jsdelivr.net/npm/cpmono-webfont@1.0.0/CPMono_v07_Light.woff2') format('woff2'),
+                 url('https://cdn.jsdelivr.net/npm/cpmono-webfont@1.0.0/CPMono_v07_Light.woff') format('woff');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        :root {
+            --text-color: #454545;
+            --bg-color: #ffffff;
+            --link-color: #0077aa;
+            --link-hover-color: #005577;
+            --link-visited-color: #0077aa;
+            --selection-bg: #b3d4fc;
+            --selection-text: #000000;
+        }
+
+
+        html {
+            font-size: 16px;
+            line-height: 1.7;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: 'CPMono Light', 'Courier New', monospace;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-size: 1rem;
+            white-space: normal;           ;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            line-height: 1.2;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1em;
+        }
+		pre {
+			font-size: 0.875rem;
+			line-height: 1.4;
+			margin-bottom: 1.5em;
+			overflow-x: auto;
+			white-space: pre;
+			word-wrap: normal;
+		}
+
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover, a:focus {
+            color: var(--link-hover-color);
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: var(--link-visited-color);
+        }
+        footer {
+                margin-top: 3em;
+                text-align: center;
+            }
+    </style>
+</head>
+
+<body>
+    <a href="/" id="head-link">kezer's rant space</a>
+    <h1 id="programs-that-i-use">Programs that I use</h1>
+
+<p>...</p>
+
+<p>Last Update: 05.04.25</p>
+
+<p><strong>Priorities</strong></p>
+
+<p>First of all as I am an architect, I have to use windows machine for work, especially for 3dsmax, photoshop and AI stuff. This is why I generally have the latest workstation CPU, latest GPU, and the most ram I can get -right now 192GB. But as it is work only computer at the office I will not talk about it.</p>
+
+<p>BUT, I do use stuff with my main computer + render node + NAS server</p>
+
+<ul>
+<li>They are all in the same network, also connected to self hosted headscale server.</li>
+<li>When I submit a job from main computer, render node starts rendering.</li>
+<li>Node also has license servers.</li>
+<li>NAS has 2 m2 4tb disks as main ones, so that I can use 10gbe speed over network, and all of my current projects are there.</li>
+<li>It has 3 6TB NAS disks, which are for REMUX movies + Flac musics + Photos + bitwarden server etc.</li>
+</ul>
+
+<p>My main laptop is for research, writing, mails, watching stuff, listening to music, so basically everything I need.</p>
+
+<h3 id="hardware">Hardware</h3>
+
+<p><strong>Laptop:</strong>
+My main laptop is Thinkpad X230. I have bought it from <a href="https://insurgo.ca">Insurgo</a>. But they dont sell hardware anymore, so the best bet for you to get Intel ME neutralized X230 preferably with Heads and i7, ssd, 16GB ram and IPS screen. Then if something is broken, you can replace easily, and it has enough power to do even video rendering. If you spend more than 200 dollars for a computer, it is a waste of money.</p>
+
+<p><strong>Phone</strong>:
+Google Pixel 6a, if it ever gets broken, I will get the latest Pixel phone and install GrapheneOS immediately. I will soon write about how I set it up and use daily.</p>
+
+<p><strong>Kindle</strong>: I have always prefered hard copy books, but sometimes it is hard to get the actual book, or even impossible. And also instead of waiting days for a book to come, I just buy it from amazon, I always have my recent library with me and it has crazy battery life.</p>
+
+<p><strong>Crypto</strong>:</p>
+
+<ul>
+<li>Coldcard - air-gapped transaction for #btc</li>
+<li>Trezor - storing my #eth</li>
+<li>Phantom wallet - my hot wallet, generally use it on Jupiter</li>
+<li>Cake wallet - XMR HERE I COMMMME!</li>
+</ul>
+
+<h3 id="software">Software</h3>
+
+<p><strong>Operating System</strong>:
+I use Arch linux. And I do only recommend Arch/Artix and if you are into these stuff QubesOS. Even if you are totally newb, get Arch, only few days you will have problems, then you will love the way linux works.</p>
+
+<p><strong>Terminal</strong>:
+I use st by <a href="https://suckless.org">suckless</a> which is one of the most minimal yet easily customizable terminal emulators out there.</p>
+
+<p><strong>Window Manager</strong>:
+dwm as window manager and dwmblocks for status bar.</p>
+
+<p><strong>Text Editing</strong>:
+Neovim, it is vim, but a bit better.</p>
+
+<p><strong>Web Browser</strong>:
+I used librewolf for years, now trying Brave, and really happy so far.</p>
+
+<p><strong>File Manager</strong>:
+<a href="https://github.com/gokcehan/lf">lf</a> fast,easy to customize.</p>
+
+<p><strong>Mail Client</strong>:
+neomutt, I keep all my mail offline with isync. Not that easy to set up, but you do it once.</p>
+
+<p><strong>Video Player</strong>
+mpv, as you know all cool kids are already using it. I am even using it on my phone.</p>
+
+<p><strong>PDF Viewer</strong>
+Zathura, you can also use MuPDF, which I still prefer for my phone.</p>
+
+<p>Logic is simple, I only use libre software, I will not use any proprietary software. I try to optimize my life with better alternatives for everything. So that means no video games either.</p>
+
+<ul>
+<li>Eat alkaline</li>
+<li>Workout daily</li>
+<li>Quality sleep</li>
+<li>Ground daily</li>
+<li>Sun gazing</li>
+<li>Pray daily</li>
+</ul>
+
+<p>Life will be on easier mode. Trust me.</p>
+
+<hr>
+<footer>
+dm me on <a href="https://x.com/kezerco">X</a>.
+</footer>
+
+</body>
+
+</html>
